@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AegisBank MVP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container">
+            <button class="header__burger" type="button" aria-label="Menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            <div class="header__actions">
+                <a href="#" class="header__link header__link--login">Se connecter</a>
+                <a href="#" class="header__link header__link--signup">S'inscrire</a>
+            </div>
+        </div>
+    </header>
+    <!-- Main -->
+    <main class="main">
+        <section class="hero">
+            <div class="hero__container">
+                <h1 class="hero__title">
+                    La néobanque <br>
+                    <span class="hero__title--gradient">éthique & transparente</span>
+                </h1>
+                <p class="hero__subtitle">
+                    La banque des créateurs qui veulent plus que des chiffres.
+                </p>
+                <div class="hero__badge">
+                    <span class="hero__badge-icon">🎁</span>
+                    20€ offerts — Mars 2026
+                </div>
+                <a href="#" class="hero__cta">
+                    Télécharger l'app
+                </a>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <!-- Social Links -->
+            <div class="footer__socials">
+                <a href="#" class="footer__social-link" aria-label="Telegram">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18 1.897-.962 6.502-1.359 8.627-.168.9-.5 1.201-.82 1.23-.697.064-1.226-.461-1.901-.903-1.056-.692-1.653-1.123-2.678-1.799-1.185-.781-.417-1.21.258-1.911.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.139-5.062 3.345-.479.329-.913.489-1.302.481-.428-.008-1.252-.241-1.865-.44-.751-.244-1.349-.374-1.297-.789.027-.215.324-.434.893-.663 3.501-1.524 5.83-2.529 6.986-3.014 3.332-1.393 4.025-1.638 4.476-1.638.099 0 .322.023.466.143.121.102.155.238.161.34.006.044.009.091.009.117z" />
+                    </svg>
+                </a>
+                <a href="#" class="footer__social-link" aria-label="Mastodon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-5.698.242-6.152.309C2.946.702.677 2.734.327 5.313.05 7.375 0 11.607 0 11.607s.06 4.604.363 6.649c.508 3.064 2.673 4.22 4.976 4.453 2.162.219 4.053-.131 4.053-.131.782.35 2.126.653 4.929.563 3.442-.112 5.093-1.652 5.093-1.652s.318-2.227.351-4.836h-3.414c-.048.889-.25 1.946-.576 2.373-1.118 1.464-3.528 1.257-3.666 1.241-.011-.118-.011-.237-.011-.355 0-2.378.026-4.597.026-4.597 0-3.693-2.457-4.225-2.457-4.225-2.261-.259-4.258.461-4.258.461v8.83H2.822V9.663c0-2.021.524-3.864 2.382-4.47 1.838-.601 3.232.064 3.232.064l.872.583.872-.583s1.395-.664 3.233-.064c1.858.606 2.383 2.449 2.383 4.47v6.621h2.894v-8.83s-1.998-.72-4.259-.461c0 0-2.457.532-2.457 4.225" />
+                    </svg>
+                </a>
+                <a href="#" class="footer__social-link" aria-label="Bluesky">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.685 6.262 7.016 2.256.053-.948.52-1.848.807-2.145.287.297.754 1.197.807 2.145.331 4.006 2.003 2.934 7.016-2.256 4.557-5.073 1.082-6.498-2.83-7.078-.139-.016-.277-.034-.415-.056.14.017.279.036.415.056 2.67.296 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.686 12 10.8z" />
+                    </svg>
+                </a>
+            </div>
+            <!-- LegalLink -->
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Mentions Légales</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Politique de Confidentialité</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">CGU</a>
+                </li>
+            </ul>
+
+            <p class="footer__copyright">© 2026 AegisBank. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

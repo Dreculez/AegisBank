@@ -1,0 +1,245 @@
+/* Header */
+:root {
+    --header-height: 72px;
+    --color-bg: #0A0A0A;
+    --color-text: #FFFFFF;
+    --color-primary: #6D28D9;
+    --font-size-xs: 0.75rem;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    /* Exemple d'appel de root */
+}
+
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: rgba(10, 10, 10, 0.9);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px 16px;
+}
+
+.header__container {
+    /* Répartition des éléments droite et gauche */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__burger {
+    background: transparent;
+    border: none;
+    color: var(--color-text);
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    /* empillage des boutons */
+}
+
+.header__link {
+    text-decoration: none;
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: opacity 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 90px;
+}
+
+.header__link--login {
+    color: #A3A3A3;
+    border: 1px solid transparent;
+}
+
+.header__link--signup {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border: 1px solid var(--color-primary);
+}
+
+/* Main */
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.hero {
+    padding: 64px 16px 80px;
+    background: radial-gradient(circle at 50% 0%, #1a1a1a 0%, #0A0A0A 70%);
+    text-align: center;
+    /* Design du background couleur diffuse */
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero__title {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    font-weight: 800;
+    margin: 0 0 16px 0;
+    letter-spacing: -0.02em;
+}
+
+.hero__title--gradient {
+    background: linear-gradient(90deg, #A78BFA 0%, #6D28D9 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.hero__subtitle {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: #A3A3A3;
+    margin: 0 0 32px 0;
+    padding: 0 8px;
+}
+
+.hero__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: rgba(109, 40, 217, 0.1);
+    border: 1px solid rgba(109, 40, 217, 0.3);
+    color: #E9D5FF;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 16px 48px;
+
+    border-radius: 9999px;
+    margin-bottom: 24px;
+}
+
+.hero__cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 16px 24px;
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 14px 0 rgba(109, 40, 217, 0.4);
+}
+
+/* Footer */
+.footer {
+    background-color: #000000;
+    padding: 48px 16px 32px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 24px;
+}
+
+.footer__social-link {
+    color: #737373;
+    transition: color 0.2s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__social-link:hover {
+    color: var(--color-primary);
+    transform: translateY(-2px);
+}
+
+
+.footer__list {
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer__item {
+    width: 100%;
+    text-align: center;
+}
+
+.footer__link {
+    font-size: 0.875rem;
+    color: #737373;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer__link:hover {
+    color: var(--color-text);
+    text-decoration: underline;
+}
+
+.footer__copyright {
+    font-size: 0.75rem;
+    color: #525252;
+    margin: 0;
+    text-align: center;
+}
