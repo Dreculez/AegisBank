@@ -19,8 +19,7 @@ Conformément au cahier des charges, le développement a privilégié :
 * **Hébergement/Versionning :** GitHub.
 
 ## Installation & Utilisation
-Pour tester cette version localement :
 
+Pour tester cette version localement :
 1. Cloner le dépôt :
-   
-   git clone https://github.com/Dreculez/AegisBank.
+ git clone https://github.com/Dreculez/AegisBank.
