@@ -16,7 +16,7 @@ Conformément au cahier des charges, le développement a privilégié :
 ## Stack Technique
 * **Langages :** HTML5, CSS3.
 * **Méthodologie :** Mobile First, Flux de travail Git.
-* **Hébergement/Versionning :** [GitHub ou GitLab].
+* **Hébergement/Versionning :** GitHub.
 
 ## Installation & Utilisation
 Pour tester cette version localement :
