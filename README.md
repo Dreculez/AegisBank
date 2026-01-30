@@ -5,7 +5,7 @@
 ---
 
 ## Présentation
-Ce projet est une première version fonctionnelle répondant aux besoins essentiels de [expliquer l'objectif en 1 phrase]. L'accent a été mis sur la performance au chargement et une interface intuitive dès l'ouverture sur smartphone.
+Ce projet est une première version fonctionnelle répondant aux besoins essentiels des créateurs de contenus voulant une banque transparente avec eux. L'accent a été mis sur la performance au chargement et une interface intuitive dès l'ouverture sur smartphone.
 
 ## Approche "Mobile First"
 Conformément au cahier des charges, le développement a privilégié :

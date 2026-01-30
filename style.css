@@ -1,4 +1,4 @@
-/* Header */
+/* === DESIGN SYSTEM (Variables Globales) === */
 :root {
     --header-height: 72px;
     --color-bg: #0A0A0A;
@@ -28,11 +28,12 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background-color: var(--color-bg);
     color: var(--color-text);
-    /* Exemple d'appel de root */
+    /* Exemple d'appel de root + choix de typographie de la page */
 }
 
 
 .header {
+    /*  Navigation persistante (Sticky) + Effet de verre (Glassmorphism)  */
     position: sticky;
     top: 0;
     z-index: 100;
@@ -107,7 +108,7 @@ body {
     padding: 64px 16px 80px;
     background: radial-gradient(circle at 50% 0%, #1a1a1a 0%, #0A0A0A 70%);
     text-align: center;
-    /* Design du background couleur diffuse */
+
 }
 
 .hero__container {
@@ -127,6 +128,7 @@ body {
 }
 
 .hero__title--gradient {
+    /* Technique de masquage pour appliquer le dégradé sur le texte uniquement */
     background: linear-gradient(90deg, #A78BFA 0%, #6D28D9 100%);
     -webkit-background-clip: text;
     background-clip: text;
@@ -215,6 +217,7 @@ body {
 
     margin: 0;
     display: flex;
+    /* Layout Vertical pour Mobile (Passera en 'row' sur desktop dans les prochaines versions) */
     flex-direction: column;
     align-items: center;
     gap: 16px;
