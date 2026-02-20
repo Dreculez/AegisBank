@@ -1,12 +1,7 @@
 /* === DESIGN SYSTEM (Variables Globales) === */
-:root {
-    --header-height: 72px;
-    --color-bg: #0A0A0A;
-    --color-text: #FFFFFF;
-    --color-primary: #6D28D9;
-    --font-size-xs: 0.75rem;
-}
 
+
+@import url(/Styles/_colors-variables.css);
 
 *,
 *::before,
