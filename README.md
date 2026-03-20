@@ -26,7 +26,8 @@ Pour tester cette version localement :
 
 ## Lighthouse
 
-<img width="944" height="660" alt="Capture d&#39;écran 2026-03-20 100302" src="https://github.com/user-attachments/assets/0e05dea0-e1e2-403f-b8ba-1fda5d583b2c" />
+<img width="1030" height="711" alt="image" src="https://github.com/user-attachments/assets/1d5b9186-1d4b-43be-aaab-86ac3fe2d49e" />
+
 
 ## W3C Analyze 
 
