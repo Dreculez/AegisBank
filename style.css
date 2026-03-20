@@ -93,7 +93,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
 
 .hero {
@@ -190,7 +190,7 @@ body {
 }
 
 .footer__social-link {
-    color: #737373;
+    color: #c9c7c7;
     transition: color 0.2s ease, transform 0.2s ease;
     display: flex;
     align-items: center;
@@ -223,7 +223,7 @@ body {
 
 .footer__link {
     font-size: 0.75rem;
-    color: #737373;
+    color: #c9c7c7;
     text-decoration: none;
     transition: color 0.2s ease;
 }
@@ -235,7 +235,7 @@ body {
 
 .footer__copyright {
     font-size: 0.5rem;
-    color: #525252;
+    color: #c9c7c7;
     margin: 0;
     text-align: center;
 }
