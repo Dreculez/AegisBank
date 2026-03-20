@@ -23,3 +23,4 @@ Conformément au cahier des charges, le développement a privilégié :
 Pour tester cette version localement :
 1. Cloner le dépôt :
  git clone https://github.com/Dreculez/AegisBank.
+<img width="944" height="660" alt="Capture d&#39;écran 2026-03-20 100302" src="https://github.com/user-attachments/assets/0e05dea0-e1e2-403f-b8ba-1fda5d583b2c" />
